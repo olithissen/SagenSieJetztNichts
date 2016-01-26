@@ -1,8 +1,11 @@
 {
 	"manifest_version": 2,
 	"name": "Sagen Sie jetzt nichts",
-	"version": "1.0",
+	"version": "1.1",
 	"description": "Entfernt die Kommentarbereiche der beliebtesten deutschen Nachrichtenseiten",
+    "permissions": [
+        "http://tonick.net/*"
+    ],
 	"content_scripts": 
 	[
 		{

@@ -1,10 +1,3 @@
-var config = {
-	"spiegel.de" : ".article-comments-box",
-	"faz.net" : "#lesermeinungen",
-	"zeit.de" : ".comment-section",
-	"taz.de" : ".sect_commentlinks",
-}
-
 function extractDomain(url) {
     var domain;
     if (url.indexOf("://") > -1) {
@@ -19,7 +12,10 @@ function extractDomain(url) {
     return domain;
 }
 
-var domain = extractDomain(window.location.href);
-if (domain in config) {
-	$(config[domain]).hide();
-}
+
+$.getJSON("http://tonick.net/filterlist.json", function(config) {
+	var domain = extractDomain(window.location.href);
+	if (domain in config) {
+		$(config[domain]).hide();
+	}
+});

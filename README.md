@@ -12,3 +12,7 @@ Dank an https://github.com/olereissmann für die Inspiration
 
 # 3rd Party Libraries
 jQuery - https://jquery.com/
+
+# History
+- 1.0 Initial Version
+- 1.1 Command server for remote rule update

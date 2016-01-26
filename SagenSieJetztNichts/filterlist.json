@@ -1,0 +1,7 @@
+{
+	"spiegel.de" : ".article-comments-box",
+	"faz.net" : "#lesermeinungen",
+	"zeit.de" : ".comment-section",
+	"taz.de" : ".sect_commentlinks",
+	"focus.de" : "#comments"
+}
