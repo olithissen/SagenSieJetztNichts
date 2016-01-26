@@ -3,7 +3,7 @@ Eine Chrome-Extension, die die Kommentarbereiche der beliebtesten deutschen Nach
 
 # Installation
 - SagenSieJetztNichts.crx herunterladen 
-- chrome://extensions/ öffnen
+- [(chrome://extensions/)](chrome://extensions/) öffnen
 - SagenSieJetztNichts.crx per Drag & Drop zu Chrome ziehen
 - "Erweiterung hinzufügen"
 
