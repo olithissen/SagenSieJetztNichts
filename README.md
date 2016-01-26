@@ -2,7 +2,10 @@
 Eine Chrome-Extension, die die Kommentarbereiche der beliebtesten deutschen Nachrichtenseiten entfernt.
 
 # Installation
-SagenSieJetztNichts.crx herunterladen und per Drag&Drop in den Chrome-Browser ziehen.
+- SagenSieJetztNichts.crx herunterladen 
+- chrome://extensions/ öffnen
+- SagenSieJetztNichts.crx per Drag & Drop zu Chrome ziehen
+- "Erweiterung hinzufügen"
 
 # Credits
 Dank an https://github.com/olereissmann für die Inspiration
