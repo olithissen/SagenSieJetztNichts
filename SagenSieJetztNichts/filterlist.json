@@ -1,8 +1,11 @@
 {
+	"bild.de" : ".board",
 	"spiegel.de" : ".article-comments-box",
+	"focus.de" : "#comments",
+	"welt.de" : "#disqus_thread",
 	"faz.net" : "#lesermeinungen",
 	"zeit.de" : ".comment-section",
 	"taz.de" : ".sect_commentlinks",
 	"huffingtonpost.de" : "#floaterTarget",
-	"focus.de" : "#comments"
+	"heise.de" : ".forum"
 }
