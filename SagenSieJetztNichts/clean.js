@@ -16,6 +16,10 @@ function extractDomain(url) {
 $.getJSON("http://tonick.net/filterlist.json", function(config) {
 	var domain = extractDomain(window.location.href);
 	if (domain in config) {
+		$("body").bind("DOMSubtreeModified", function(){
+			$(config[domain]).hide();
+		});
+		
 		$(config[domain]).hide();
 	}
 });

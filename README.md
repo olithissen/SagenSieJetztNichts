@@ -16,3 +16,4 @@ jQuery - https://jquery.com/
 # History
 - 1.0 Initial Version
 - 1.1 Command server for remote rule update
+- 1.2 Register DOMSubtreeModified event on body-tag to take care of ajax comment loading (huffingtonpost.de)

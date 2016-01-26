@@ -3,5 +3,6 @@
 	"faz.net" : "#lesermeinungen",
 	"zeit.de" : ".comment-section",
 	"taz.de" : ".sect_commentlinks",
+	"huffingtonpost.de" : "#floaterTarget",
 	"focus.de" : "#comments"
 }
