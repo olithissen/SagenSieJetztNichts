@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "Sagen Sie jetzt nichts",
+	"version": "1.0",
+	"description": "Entfernt die Kommentarbereiche der beliebtesten deutschen Nachrichtenseiten",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["jquery-2.2.0.min.js", "clean.js"],
+			"run_at": "document_end"
+		}
+	]
+}
